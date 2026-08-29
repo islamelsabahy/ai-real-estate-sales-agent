@@ -1,0 +1,3 @@
+lead_id,location,property_type,budget_min,budget_max,bedrooms,purchase_timeline,purpose
+DEMO-L-001,East Cairo,Apartment,6000000,8000000,3,3-6 months,Primary Residence
+DEMO-L-002,West Cairo,Townhouse,9000000,11000000,3,6-12 months,Investment

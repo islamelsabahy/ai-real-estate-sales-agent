@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unit",
+  "type": "object",
+  "required": ["unit_id", "project_id", "property_type", "price", "status"],
+  "properties": {
+    "unit_id": {"type": "string"},
+    "project_id": {"type": "string"},
+    "location": {"type": "string"},
+    "property_type": {"type": "string"},
+    "bedrooms": {"type": ["integer", "null"]},
+    "area_sqm": {"type": "number", "minimum": 0},
+    "price": {"type": "number", "minimum": 0},
+    "status": {"type": "string", "enum": ["Available", "Pending", "Reserved", "Sold"]},
+    "payment_plan": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

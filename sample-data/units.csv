@@ -1,0 +1,5 @@
+unit_id,project_id,location,property_type,bedrooms,area_sqm,price,status,payment_plan
+DEMO-U-101,DEMO-P-001,East Cairo,Apartment,2,135,6200000,Available,8 years
+DEMO-U-102,DEMO-P-001,East Cairo,Apartment,3,165,7400000,Available,8 years
+DEMO-U-201,DEMO-P-002,West Cairo,Townhouse,3,210,9800000,Available,7 years
+DEMO-U-202,DEMO-P-002,West Cairo,Apartment,3,170,7100000,Reserved,8 years

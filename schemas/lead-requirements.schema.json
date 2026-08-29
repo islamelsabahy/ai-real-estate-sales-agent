@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LeadRequirements",
+  "type": "object",
+  "properties": {
+    "location": {"type": ["string", "null"]},
+    "property_type": {"type": ["string", "null"]},
+    "budget_min": {"type": ["number", "null"], "minimum": 0},
+    "budget_max": {"type": ["number", "null"], "minimum": 0},
+    "bedrooms": {"type": ["integer", "null"], "minimum": 0},
+    "min_area_sqm": {"type": ["number", "null"], "minimum": 0},
+    "max_area_sqm": {"type": ["number", "null"], "minimum": 0},
+    "purchase_timeline": {"type": ["string", "null"]},
+    "payment_plan_preference": {"type": ["string", "null"]},
+    "purpose": {"type": ["string", "null"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
