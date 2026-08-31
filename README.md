@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/github/license/islamelsabahy/ai-real-estate-sales-agent)](LICENSE) [![Maintained by](https://img.shields.io/badge/maintained%20by-Islam%20El--sabahy-blue)](https://github.com/islamelsabahy)
+
 # AI Real Estate Sales Agent
 
 A public-safe reference architecture for an AI-powered real-estate sales assistant.
