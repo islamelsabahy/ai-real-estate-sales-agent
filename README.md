@@ -80,5 +80,5 @@ Next Best Action
 
 ## Author
 
-Eng. Islam El Sherbiny  
+Eng. Islam El-Sherbiny  
 AI · Real Estate Technology · Digital Transformation · ERP/Odoo · Automation
