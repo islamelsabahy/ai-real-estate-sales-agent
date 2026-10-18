@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.0 — 2026-10-18
+Working grounded agent on GitHub Pages: Egyptian Arabic/English extraction, lead scoring, unit matching, guardrails, CRM note, optional Claude replies with automatic audit, executable evaluation cases, CI. Inventory extended to 16 fictional units.
+
 ## v1.0.0 — 2026-08-30
 
 ### Added

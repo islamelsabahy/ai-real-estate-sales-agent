@@ -1,5 +1,17 @@
-unit_id,project_id,location,property_type,bedrooms,area_sqm,price,status,payment_plan
-DEMO-U-101,DEMO-P-001,East Cairo,Apartment,2,135,6200000,Available,8 years
-DEMO-U-102,DEMO-P-001,East Cairo,Apartment,3,165,7400000,Available,8 years
-DEMO-U-201,DEMO-P-002,West Cairo,Townhouse,3,210,9800000,Available,7 years
-DEMO-U-202,DEMO-P-002,West Cairo,Apartment,3,170,7100000,Reserved,8 years
+unit_id,project_id,location,property_type,bedrooms,area_sqm,price,status,payment_plan,down_pct
+DEMO-U-101,DEMO-P-001,East Cairo,Apartment,2,135,6200000,Available,8 years,0.1
+DEMO-U-102,DEMO-P-001,East Cairo,Apartment,3,165,7400000,Available,8 years,0.1
+DEMO-U-103,DEMO-P-001,East Cairo,Apartment,3,180,8300000,Available,8 years,0.1
+DEMO-U-104,DEMO-P-001,East Cairo,Duplex,4,260,11800000,Available,7 years,0.15
+DEMO-U-105,DEMO-P-001,East Cairo,Apartment,3,170,7900000,Sold,8 years,0.1
+DEMO-U-106,DEMO-P-003,East Cairo,Townhouse,4,240,13500000,Available,7 years,0.15
+DEMO-U-201,DEMO-P-002,West Cairo,Townhouse,3,210,9800000,Available,7 years,0.1
+DEMO-U-202,DEMO-P-002,West Cairo,Apartment,3,170,7100000,Reserved,8 years,0.1
+DEMO-U-203,DEMO-P-002,West Cairo,Apartment,2,125,5600000,Available,8 years,0.1
+DEMO-U-204,DEMO-P-002,West Cairo,Apartment,3,155,6900000,Available,8 years,0.1
+DEMO-U-205,DEMO-P-002,West Cairo,Villa,5,380,21500000,Available,6 years,0.2
+DEMO-U-301,DEMO-P-004,New Capital,Apartment,3,160,6400000,Available,10 years,0.05
+DEMO-U-302,DEMO-P-004,New Capital,Apartment,2,120,4800000,Available,10 years,0.05
+DEMO-U-303,DEMO-P-004,New Capital,Duplex,4,250,10200000,Pending,10 years,0.05
+DEMO-U-401,DEMO-P-005,North Coast,Chalet,2,110,8900000,Available,6 years,0.1
+DEMO-U-402,DEMO-P-005,North Coast,Chalet,3,140,11600000,Available,6 years,0.1

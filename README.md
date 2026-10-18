@@ -22,6 +22,23 @@ All examples and datasets in this repository are fictional.
 - Conversation summarization
 - Sales next-best-action suggestions
 
+## Try the agent / جرّب الوكيل
+
+**Live:** https://islamelsabahy.github.io/ai-real-estate-sales-agent/
+
+The design in this repo now runs as a working, grounded agent you can chat with:
+
+- **Understands Egyptian Arabic and English WhatsApp-style messages:** budget ranges ("من 6 لـ 8 مليون"), monthly instalment limits, bedrooms, areas (التجمع، زايد، العاصمة، الساحل…), unit type, purpose, timing, cash vs instalments and decision maker. Requirements are remembered across turns.
+- **Qualifies the lead** using the weights in [`02-lead-qualification/lead-scoring.md`](02-lead-qualification/lead-scoring.md), and **matches units** with the hard filters and weighted formula in [`04-unit-matching/matching-logic.md`](04-unit-matching/matching-logic.md), from the supplied inventory only. It shows the estimated monthly instalment per unit.
+- **Applies the guardrails** in [`08-safety-privacy`](08-safety-privacy): no invented units, prices or discounts; sold/reserved units are never offered; prompt-injection attempts are refused; when nothing matches it says so and offers one clearly labelled closest option.
+- **Writes the CRM note** in the format of [`07-crm/crm-note-format.md`](07-crm/crm-note-format.md) and gives the next best action.
+- **Optional AI mode:** paste your own Anthropic API key and Claude rephrases replies naturally from the same matched data. **Every AI reply is audited.** If it mentions a unit that does not exist or is unavailable, a price not in the inventory, or a discount percentage, it is rejected and the safe reply is used. The key is never stored.
+- **Executable evaluation:** the cases in [`tests/evaluation-cases.md`](tests/evaluation-cases.md), plus an audit check, run in the page and in CI (`node tests/test_agent.js`).
+- Upload your own `units.csv` (same columns as [`sample-data/units.csv`](sample-data/units.csv)).
+
+Engine: `docs/app/agent.js`. All inventory is fictional.
+
+
 ## Sales Flow
 
 ```text
