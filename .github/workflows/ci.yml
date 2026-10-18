@@ -9,3 +9,4 @@ jobs:
         with:
           node-version: "20"
       - run: node tests/test_agent.js
+      - run: node tests/test_xlsx.js

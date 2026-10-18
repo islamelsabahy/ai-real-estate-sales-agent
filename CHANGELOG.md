@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.0 — 2026-10-18
+Inventory Excel round trip: download a pre-split .xlsx template (Units, Projects, Guide), or export the current inventory, fill it in and upload it back. Dependency-free xlsx writer/reader, row-level validation, tests in CI.
+
 ## v1.1.0 — 2026-10-18
 Working grounded agent on GitHub Pages: Egyptian Arabic/English extraction, lead scoring, unit matching, guardrails, CRM note, optional Claude replies with automatic audit, executable evaluation cases, CI. Inventory extended to 16 fictional units.
 

@@ -34,7 +34,7 @@ The design in this repo now runs as a working, grounded agent you can chat with:
 - **Writes the CRM note** in the format of [`07-crm/crm-note-format.md`](07-crm/crm-note-format.md) and gives the next best action.
 - **Optional AI mode:** paste your own Anthropic API key and Claude rephrases replies naturally from the same matched data. **Every AI reply is audited.** If it mentions a unit that does not exist or is unavailable, a price not in the inventory, or a discount percentage, it is rejected and the safe reply is used. The key is never stored.
 - **Executable evaluation:** the cases in [`tests/evaluation-cases.md`](tests/evaluation-cases.md), plus an audit check, run in the page and in CI (`node tests/test_agent.js`).
-- Upload your own `units.csv` (same columns as [`sample-data/units.csv`](sample-data/units.csv)).
+- **Excel template**: download `sales-agent-inventory-template.xlsx` from the page (Units, Projects and Guide sheets, dropdowns for status, type and location), fill in your projects and units, and upload it back. You can also export the current inventory, edit it and re-upload. CSV still works (same columns as [`sample-data/units.csv`](sample-data/units.csv)). Rows with errors are skipped and listed with the row number.
 
 Engine: `docs/app/agent.js`. All inventory is fictional.
 
