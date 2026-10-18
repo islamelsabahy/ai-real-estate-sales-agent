@@ -99,3 +99,8 @@ Next Best Action
 
 Eng. Islam El-Sherbiny  
 AI · Real Estate Technology · Digital Transformation · ERP/Odoo · Automation
+
+## Limitations
+- Demonstration tool built on **fictional sample data**. Outputs are decision support, not legal, tax or investment advice.
+- Results depend on the assumptions you enter; check them against your own numbers before relying on them.
+- Local by default: calculations run in your browser and nothing is sent to a server. Where a page offers an **optional AI mode**, turning it on sends the text/data you entered (and the computed results it needs) to `api.anthropic.com` using your own API key. Do not enable it with confidential customer, inventory or finance data. See [SECURITY.md](SECURITY.md).
